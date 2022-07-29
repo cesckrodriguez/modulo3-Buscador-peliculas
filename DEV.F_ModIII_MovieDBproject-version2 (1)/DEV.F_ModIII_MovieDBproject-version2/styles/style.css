@@ -1,0 +1,54 @@
+#upcomingMovies img{
+    display: block;
+    margin: auto;
+    max-width: 30%;
+    border: #fff 2px solid;
+}
+
+#contenedor img{
+    display: block;
+    margin: auto;
+    max-width: 30%;
+    border: #fff 2px solid;
+    border-radius: 15px;
+    text-decoration: none;
+    filter: brightness(70%);
+    
+}
+
+#contenedor img:hover{
+    filter: brightness(100%);
+    cursor: pointer;
+    animation: incrementar 1.0s infinite alternate ;
+}
+
+@keyframes incrementar{
+    to{
+        transform: scale(1);
+    }from{
+        transform: scale(1.11);
+    }
+}
+
+#contenedor a{
+    
+}
+
+a{
+    text-decoration: none;
+    animation: incrementar 1.0s infinite alternate ;
+}
+
+.caliz{
+    display: grid;
+    grid-template-rows: 1fr 15fr;
+    margin-top: 15px;
+}
+
+#npag{
+    color: #fff;
+    border: #fff 2px solid;
+    font-size: 50px;
+    text-align: center;
+    background: linear-gradient(to right, red , yellow);
+}
